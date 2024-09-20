@@ -1,0 +1,127 @@
+* {
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+	
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Open sans',sans-serif;
+	height: 100vh;
+    background-image: url("https://img.freepik.com/free-photo/futuristic-computer-lab-with-bright-blue-lighting-generated-by-ai_188544-28200.jpg?w=900&t=st=1686642169~exp=1686642769~hmac=add42647b80d0f6ecfb86f026c0732ab7e0bc3b2afeb16163c292f30120d831f");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+}
+.wrapper {
+	width: 1100px;
+	margin: auto;
+	position: relative;
+	
+}
+.logo a{
+	font-size: 60px;
+	font-weight: bold;
+	float: left;
+	font-family: 'bold';
+	color:#FFFFFF;
+	
+}
+.menu{
+	float: right;
+}
+
+nav{
+	width: 100%;
+	margin: auto;
+	display: flex;
+	line-height: 80px;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+	background-color:#025464;
+	border-bottom: 1px solid #FFFFFF;
+}
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav ul li{
+	float: left;
+}
+nav ul li a{
+	color: #FFFFFF;
+	font-weight: bold;
+	text-align: center;
+	padding: 0px 16px 0px 16px;
+	text-decoration: none;
+}
+nav ul li a:hover{
+	text-decoration: underline;
+}
+.container{
+	margin: auto;
+	width: 100%;
+}
+.container .baris{
+    display: flex;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.container h2{
+	margin-top: 10px;
+    margin-left: 300px;
+    margin-right: 50px;
+    margin-bottom: 5px;
+	text-align: center;
+    color: #FFFFFF;
+    text-decoration: underline;
+    padding: 20px 35px;
+    width: 700px;
+    box-shadow: 0 0 10px rgb(254, 252, 252);
+    background-color: rgba(79, 3, 83, 0.889);
+    font-family: 'cooper black';
+    font-size: 20px;
+	border: 2px double #07cef6;
+	border-radius: 15px;
+	position: -webkit-sticky;
+
+}
+.baris h3{
+    margin-top: 5px;
+    margin-left: 23px;
+    margin-right: 23px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: underline;
+    padding: 20px 35px;
+    width: 300px;
+    box-shadow: 0 0 10px rgb(254, 252, 252);
+    background-color: rgba(18, 2, 62, 0.896);
+    font-family: 'cooper black';
+    font-size: 20px;
+	border: 2px double #07cef6;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+.baris p{
+    margin-right: 25px;
+    margin-left: 23px;
+	margin-bottom: 20px;
+    padding: 20px 35px;
+    width: 300px;
+    position: relative;
+    background-color: rgba(5, 5, 5, 0.824);
+    box-shadow: 0 0 10px rgb(254, 252, 252);
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'bold';
+	border: 2px double #FFFFFF;
+}

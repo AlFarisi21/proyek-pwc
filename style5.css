@@ -1,0 +1,155 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open sans',sans-serif;
+    height: 100vh;
+    background-image: url("https://img.freepik.com/free-photo/flat-lay-black-background-with-laptop-coffee-cup-calculator-top-view_169016-33508.jpg?size=626&ext=jpg&ga=GA1.2.1336167457.1658838957&semt=sph");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+}
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+    
+}
+.logo a{
+    font-size: 60px;
+    font-weight: bold;
+    float: left;
+    font-family: 'bold';
+    color:#FFFFFF;
+    
+}
+.menu{
+    float: right;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color:#025464;
+    border-bottom: 1px solid #FFFFFF;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+.container{
+    margin: auto;
+    width: 100%;
+}
+.container .baris{
+    display: flex;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-left: 265px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.container h2{
+    margin-top: 10px;
+    margin-left: 300px;
+    margin-right: 50px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: underline;
+    padding: 20px 35px;
+    width: 700px;
+    font-family: 'cooper black';
+    font-size: 30px;
+    position: -webkit-sticky;
+}
+
+.container p{
+    margin-top: -10px;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'times new roman';
+    font-size: 20px;
+}
+
+.baris h3{
+    margin-top: 5px;
+    margin-left: 23px;
+    margin-right: 23px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px 35px;
+    width: 300px;
+    font-family: 'cooper black';
+    font-size: 25px;
+}
+
+.baris p a{
+    margin-top: 100px;
+    margin-right: 0px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 300px;
+    position: relative;
+    color: #0395f7;
+    text-align: center;
+    font-family: 'bold';
+    font-size: 17px;
+    font-weight: bold;
+}
+.baris p a:hover{
+    text-decoration: underline;
+    color: #b304d6;
+}
+
+.nopal img{
+    margin-top: 0px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    border-radius: 150px;
+    height: 300px;
+    width: 300px;
+}
+
+.faris img{
+    margin-top: 0px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    border-radius: 150px;
+    height: 300px;
+    width: 300px;
+}
+
+.footer {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'comic sans-ms';
+}

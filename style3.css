@@ -1,0 +1,118 @@
+* {
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+}
+body {
+	
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Open sans',sans-serif;
+	height: 100vh;
+    background-image: url("https://img.freepik.com/free-photo/futuristic-computer-lab-with-bright-blue-lighting-generated-by-ai_188544-28200.jpg?w=900&t=st=1686642169~exp=1686642769~hmac=add42647b80d0f6ecfb86f026c0732ab7e0bc3b2afeb16163c292f30120d831f");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.wrapper {
+	width: 1100px;
+	margin: auto;
+	position: relative;
+	
+}
+.logo a{
+	font-size: 60px;
+	font-weight: bold;
+	float: left;
+	font-family: 'bold';
+	color:#FFFFFF;
+	
+}
+.menu{
+	float: right;
+}
+
+nav{
+	width: 100%;
+	margin: auto;
+	display: flex;
+	line-height: 80px;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+	background-color:#025464;
+	border-bottom: 1px solid #FFFFFF;
+}
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav ul li{
+	float: left;
+}
+nav ul li a{
+	color: #FFFFFF;
+	font-weight: bold;
+	text-align: center;
+	padding: 0px 16px 0px 16px;
+	text-decoration: none;
+}
+nav ul li a:hover{
+	text-decoration: underline;
+}
+
+.container{
+    position: relative;
+    margin-left: 50%;
+    top: 45%;
+    transform: translate(-50%,-50%);
+    padding: 20px 35px;
+    width: 300px;
+    background-color: rgba(5, 5, 5, 0.824);
+    box-shadow: 0 0 10px rgb(4, 255, 242);
+}
+.container form h2{
+    text-align: center;
+    color: #fafafa;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #2979ff;
+}
+.container form label{
+    text-align: left;
+    color: #90caf9;
+}
+.container form input[type=text]{
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #2979ff;
+    color: #fff;
+    font-size: 17px;
+}
+.container form p{
+	border-bottom: 2px solid #2979ff;
+}
+.container form p input[type=checkbox] {
+	
+	text-align: left;
+	float: left;
+    background-color: transparent;
+    color: #fff;
+    font-size: 20px;
+}
+
+.container form button{
+    width: 100%;
+    padding: 5px 0;
+    border: none;
+    background-color:#2979ff;
+    font-size: 18px;
+    color: #fafafa;
+}
+
+
